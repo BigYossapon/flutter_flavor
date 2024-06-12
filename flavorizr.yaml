@@ -1,0 +1,58 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  dev:
+    app:
+      name: "Flavor Dev App"
+
+    android:
+      applicationId: "com.example.flavor.dev"
+    firebase:
+      config: ".firebase/dev/google-services.json"
+    # ios:
+    #   bundleId: "com.example.flavor.dev"
+    #  firebase:
+    #    config: ".firebase/uat/GoogleService-Info.plist"
+
+  sit:
+    app:
+      name: "Flavor Sit App"
+
+    android:
+      applicationId: "com.example.flavor.sit"
+    firebase:
+      config: ".firebase/sit/google-services.json"
+    # ios:
+    #   bundleId: "com.example.flavor.sit"
+    #  firebase:
+    #     config: ".firebase/sit/GoogleService-Info.plist"
+   
+  uat:
+    app:
+      name: "Flavor UAT App"
+
+    android:
+      applicationId: "com.example.flavor.uat"
+    firebase:
+      config: ".firebase/uat/google-services.json"
+    # ios:
+    #   bundleId: "com.example.flavor.uat"
+    #  firebase:
+    #    config: ".firebase/uat/GoogleService-Info.plist"
+    
+  prod:
+    app:
+      name: "Flavor App"
+
+    android:
+      applicationId: "com.example.flavor"
+    firebase:
+      config: ".firebase/prod/google-services.json"
+    # ios:
+    #   bundleId: "com.example.flavor.prod"
+    #  firebase:
+    #    config: ".firebase/uat/GoogleService-Info.plist"
+
+ide: "vscode"

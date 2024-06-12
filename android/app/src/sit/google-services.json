@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "728801720464",
+    "project_id": "flutterflavor-3c86b",
+    "storage_bucket": "flutterflavor-3c86b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728801720464:android:4397f2dcd88ef1b969c015",
+        "android_client_info": {
+          "package_name": "com.example.falvor.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuFeCD_MjyrZ6Gb6-6zggqsQHSytmqbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728801720464:android:8b871d03a1c8365b69c015",
+        "android_client_info": {
+          "package_name": "com.example.flavor.sit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuFeCD_MjyrZ6Gb6-6zggqsQHSytmqbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

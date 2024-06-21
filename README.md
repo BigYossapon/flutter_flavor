@@ -24,8 +24,9 @@ install
     - $ dart pub add --dev build_runner
     - create file .dev.env,.sit.env,.uat.env,.prod.env  path "folderproject/"
     - create folder env path "../core/utils/"
-    - create file same file and same pattern on env_reader.dart and env.dart
+    - create file same file and same pattern env.dart
     - run $ dart run build_runner build
+    
 - flutter_flavorizr
     - create flavorizr.yaml on path "folderproject/"
     - and do pattern like this project
@@ -34,6 +35,7 @@ install
     - set firebase_option_<flavorName>.dart path "lib/"
     - set at main
     - set firebase manual to android path "android/app/src/dev || prod || sit ||uat"
+    - set all data from env to flavor
 
 
 - flutter build appbundle --release --flavor <flavorName> -t lib/main_<flavorName>.dart --ofus

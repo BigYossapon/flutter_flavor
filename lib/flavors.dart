@@ -1,3 +1,5 @@
+import 'package:flutter_flavor/env/env.dart';
+
 enum Flavor {
   dev,
   sit,
@@ -25,4 +27,18 @@ class F {
     }
   }
 
+  static String get url {
+    switch (appFlavor) {
+      case Flavor.dev:
+        return EnvDev.baseUrl;
+      case Flavor.sit:
+        return EnvSit.baseUrl;
+      case Flavor.uat:
+        return EnvUat.baseUrl;
+      case Flavor.prod:
+        return EnvProd.baseUrl;
+      default:
+        return 'title';
+    }
+  }
 }

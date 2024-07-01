@@ -37,6 +37,7 @@ install
     - set firebase manual to android path "android/app/src/dev || prod || sit ||uat"
     - set all data from env to flavor
 
+-flutter pub run flutter_flavorizr -p assets:download assets:extract ios:xcconfig assets:clean
 - if flutter firebase error ruby just look at file assets.tmp.zip extract this file and create file .tmp/ path in state lib and copy script file from extract file to this path and now run firebase again
 - flutter build appbundle --release --flavor <flavorName> -t lib/main_<flavorName>.dart --ofus
 
